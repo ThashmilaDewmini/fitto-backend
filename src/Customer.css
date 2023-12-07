@@ -1,0 +1,36 @@
+.customer{
+    display: flex;
+    flex-direction: row;
+}
+.customer-left{
+    flex: 1;
+}
+.customer-right{
+    flex: 4;
+}
+.customer-title{
+    display: flex;
+    justify-content: center;
+    height: 59px;
+    background: rgb(49, 0, 53);
+    color: rgb(251, 188, 233);
+}
+.customer-body{
+    margin-top: 45px;
+    margin-left: 250px;
+    padding: 20px;
+}
+.customer-table{
+    border-collapse: collapse;
+}
+.customer-table th, .customer-table td {
+    border: 1px solid rgb(209, 209, 209);
+    padding: 8px;
+    text-align: left;
+}
+.customer-table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.customer-table th{
+    color: rgb(49, 0, 53);
+}

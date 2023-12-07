@@ -1,0 +1,89 @@
+.Admin-loggin{
+    width: 100%;
+    height: 100vh;
+    background: rgb(49, 0, 53);
+    color: rgb(251, 188, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.admin-logo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    &:hover{
+        background-image: linear-gradient(to right, #ff512f, #dd2476);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        transition: all 0.3s ease-in-out;  
+    }
+}
+.login-container{
+    width: 300px;
+    height: 450px;
+    background: rgb(49, 0, 53);
+    color: rgb(251, 188, 233);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    &:hover{
+        background-image: linear-gradient(to right, rgb(251, 188, 233), rgb(49, 0, 53));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        transition: all 0.3s ease-in-out;
+    }
+}
+.login-container> h1{
+    font-weight: 500;
+    color: rgb(251, 188, 233);
+    margin-bottom: 20px;
+}
+.login-container > form > h5{
+    padding-bottom: 2px;
+}
+.login-container > form > input{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+}
+.log-in-button{
+    background: rgb(49, 0, 53);
+    color: white;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 50px;
+    border-color: white;
+    cursor: pointer;
+}
+@media (max-width: 375px) {
+    .login-container> h1{
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    .login-container{
+        width: 195px;
+        height: 330px;
+        padding-left: 30px;
+    }
+    .login-container > form > input{
+        height: 15px;
+        margin-bottom: 5px;
+        width: 85%;
+    }
+    .log-in-button{
+        width: 90%;
+        height: 20px;
+        margin-top: 25px;
+       
+    }
+    .login-container > form > h5{
+        padding-bottom: 1px;
+    }
+}
